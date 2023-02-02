@@ -1,4 +1,5 @@
 export const storageUsageCheck = function(fn) {
+  return
   if (!chrome.storage.local.getBytesInUse) {
     return
   }
